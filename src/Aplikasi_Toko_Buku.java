@@ -91,7 +91,7 @@ System.out.println("Jumlah Jual : " + toko.tampilJumlahJual());
 System.out.println("OUTPUT:");
 //System.out.println("Stok Sekarang : " + toko.tampilStok());
 System.out.println("Stok Sekarang : " + stokSekarang);
-System.out.println("Total Bayar   : " + toko.tampilHargaJual()*2);
+System.out.println("Total Bayar   : " + toko.tampilHargaJual()* toko.tampilJumlahJual());
 System.out.println("Laba          : " + laba );
 
 
